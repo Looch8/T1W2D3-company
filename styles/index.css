@@ -14,8 +14,10 @@ header {
   padding: 16px;
   text-align: center;
 }
-header .logo-name {
-  margin-bottom: 24px;
+@media screen and (max-width: 600px) {
+  header .logo-name {
+    margin-bottom: 24px;
+  }
 }
 header .logo-name .name {
   font-size: 28px;
@@ -37,6 +39,24 @@ header .nav-items a {
   color: #3996ab;
 }
 
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header .logo-name .name {
+    margin-bottom: 0;
+  }
+  header .nav-items {
+    width: 50%;
+  }
+}
+main section .jumbotron img {
+  height: 300px;
+  width: 100%;
+}
+
 footer {
   background-color: #ffb6b6;
   padding: 16px;
@@ -56,4 +76,12 @@ footer .info {
 }
 footer p {
   margin: 5px 0;
+}
+
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }/*# sourceMappingURL=index.css.map */
