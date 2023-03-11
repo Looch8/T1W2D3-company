@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-color: #a5a5a5;
+}
+
+header {
+  background-color: #ffb6b6;
+  padding: 16px;
+  text-align: center;
+
+  .logo-name {
+    margin-bottom: 24px;
+
+    .name {
+      font-size: 28px;
+
+      .coder-text {
+        color: #45a7c5;
+      }
+
+      .academy-text {
+        color: #1c3c5c;
+      }
+    }
+  }
+
+  .nav-items {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+    font-size: 1.2rem;
+
+    a {
+      text-decoration: none;
+      color: #3996ab;
+    }
+  }
+}
