@@ -1,12 +1,4 @@
-body {
-  margin: 0;
-  background-color: #a5a5a5;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
+@import "./pages/home.css";
 header {
   background-color: #ffb6b6;
   padding: 16px;
@@ -52,11 +44,6 @@ header .nav-items a {
     width: 50%;
   }
 }
-main section .jumbotron img {
-  height: 300px;
-  width: 100%;
-}
-
 footer {
   background-color: #ffb6b6;
   padding: 16px;
@@ -72,7 +59,7 @@ footer a i {
   font-size: 24px;
 }
 footer .info {
-  color: rgb(62, 56, 56);
+  color: #1c3c5c;
 }
 footer p {
   margin: 5px 0;
@@ -84,4 +71,12 @@ footer p {
     margin-right: auto;
     width: 50%;
   }
+}
+body {
+  margin: 0;
+  background-color: #a5a5a5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }/*# sourceMappingURL=index.css.map */

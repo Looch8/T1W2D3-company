@@ -1,0 +1,60 @@
+@import "../defaults/color";
+@import "./utils";
+@import "../defaults/breakpoint";
+
+header {
+  @include background-stuff();
+  padding: 16px;
+  text-align: center;
+
+  .logo-name {
+    @media screen and (max-width: 600px) {
+      margin-bottom: 24px;
+    }
+
+    .name {
+      font-size: 28px;
+
+      .coder-text {
+        color: $primary-color;
+      }
+
+      .academy-text {
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .nav-items {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+    font-size: 1.2rem;
+
+    a {
+      text-decoration: none;
+      color: #3996ab;
+    }
+  }
+}
+
+@media screen and (min-width: $medium) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    .logo-name {
+      //   margin-bottom: 0; this will be taking care of in mobile view
+
+      .name {
+        margin-bottom: 0;
+      }
+    }
+
+    .nav-items {
+      width: 50%;
+    }
+  }
+}
