@@ -1,0 +1,13 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+main article {
+  border: 1px solid red;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px 0px;
+}
+main article section .service-image {
+  width: 400px;
+}/*# sourceMappingURL=services.css.map */

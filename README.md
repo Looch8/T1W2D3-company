@@ -89,3 +89,7 @@ This will contain the default variables such as breakpoints, colors.
 ## Pages
 
 This will contain the styling of each individual HTML Pages.
+
+### Services
+
+Services page displays the list of services that we provide. Here is the code that we have
