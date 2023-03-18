@@ -1,5 +1,6 @@
 @import "../defaults/color";
 @import "../defaults/breakpoint";
+@import "../index";
 
 main {
 	display: flex;
@@ -17,12 +18,12 @@ main {
 			display: flex;
 			flex-direction: column;
 			margin-bottom: 24px;
-
 			label {
 				font-size: 1.2rem;
 			}
 
 			.form-input {
+				font-family: "Times New Roman", Times, serif;
 				border: 1px solid $primary-color;
 				border-radius: 4px;
 				outline: none;

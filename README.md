@@ -97,3 +97,7 @@ Services page displays the list of services that we provide. Here is the code th
 ### Contact
 
 Contact can be used to contact the company.
+
+### About
+
+About page is about us.

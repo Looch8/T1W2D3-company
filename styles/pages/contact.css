@@ -1,3 +1,86 @@
+@import "./pages/home.css";
+header {
+  background-color: #ffb6b6;
+  padding: 16px;
+  text-align: center;
+  padding: 16px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  header .logo-name {
+    margin-bottom: 24px;
+  }
+}
+header .logo-name .name {
+  font-size: 28px;
+}
+header .logo-name .name .coder-text {
+  color: #45a7c5;
+}
+header .logo-name .name .academy-text {
+  color: #1c3c5c;
+}
+header .nav-items {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+header .nav-items a {
+  text-decoration: none;
+  color: #3996ab;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header .logo-name .name {
+    margin-bottom: 0;
+  }
+  header .nav-items {
+    width: 50%;
+  }
+}
+footer {
+  background-color: #ffb6b6;
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+footer a i {
+  color: #1c3c5c;
+  font-size: 24px;
+}
+footer .info {
+  color: #1c3c5c;
+}
+footer p {
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+body {
+  margin: 0;
+  background-color: #a5a5a5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -18,6 +101,7 @@ main form .form-elements label {
   font-size: 1.2rem;
 }
 main form .form-elements .form-input {
+  font-family: "Times New Roman", Times, serif;
   border: 1px solid #45a7c5;
   border-radius: 4px;
   outline: none;
